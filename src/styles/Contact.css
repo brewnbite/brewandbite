@@ -1,0 +1,204 @@
+body, html{
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.about {
+  background-repeat: no-repeat;
+  background-image: url('../images/Home-Section-2-bg.jpg'); /* Replace with your image path */
+  background-size:cover;
+  background-position:center;
+  height:190vh;
+  width: 100%; /* Ensure full viewport width */
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  color: #333;  
+  text-align: center;
+}
+
+.about-content{
+  position: absolute;
+  width: 75%;
+  top:15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+/* From Uiverse.io by ClawHack1 */ 
+.contact-form {
+position: absolute;
+top:12%;
+left:33%;
+  width:450px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-form h2 {
+  position: relative;
+  left:4%;
+}
+
+.contact-form label {
+  color: black;
+}
+
+.contact-form .heading pre{
+  position: relative;
+  font-size: 24px;
+  color: black;
+  margin-bottom: 12px;
+  font-weight: bold;
+  display: block;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #66071b;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-form button[type="submit"] {
+  background-color: #a77645;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease-in-out;
+}
+
+.iconn{
+width:8%;
+margin-right: 3%;
+margin-left: 3%;
+}
+
+.contact-form h5 {
+font-size: 1.1rem;
+margin: 3%;
+}
+
+.whatsapp-iconn{
+width:9%;
+}
+.up{
+  position: absolute;
+  width: 100%;
+  height: 13vh;
+  background-color: #000;
+}
+
+.location{
+  position: absolute;
+  top:95%;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.blackBG{
+  position: absolute;
+  z-index: 0;
+  top:15%;
+  left: 0%;
+  background-color: black;
+  width:80%;
+  height: 79%;
+}
+
+.location-content{
+  position: absolute;
+  top:3%;
+  left:12%;
+  width:350px;
+  text-align: left;
+}
+
+.location-content h2{
+  color:#ffffff;
+  font-size: 2.2rem;
+}
+
+.location-content h3{
+  color:#ffffff;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.opening-hours{
+  position: absolute;
+  top:33%;
+  left:12%;
+  width:500px;
+  text-align: left;
+}
+.contact-details{
+  position: absolute;
+  top:60%;
+  left:12%;
+  width:500px;
+  text-align: left;
+}
+
+.opening-hours h2, .contact-details h2{
+  color:#ffffff;
+  font-size: 2.2rem;
+}
+
+.opening-hours h3, .contact-details h3{
+  color:#ffffff;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.locationIMG{
+  position: absolute;
+  z-index: 1;
+  left:48%;
+  height: 50%;
+  width:45%;
+  top:30%;
+}
+
+.map-container{
+  position: absolute;
+  top:121%;
+  left: 45%;
+}
