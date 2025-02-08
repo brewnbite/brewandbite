@@ -21,7 +21,7 @@ const Home = () => {
     </div><div className="section-2">
         <img src={vLine} alt="vertical-line" className="vertical-line" />
         <div className="section-2-content">
-          <p>Since 2004</p>
+          <p>Since 2018</p>
           <p id="intro">
             Inspired by cafe culture prevalent all over, we are a cafe that prides ourselves on excellent coffee, fresh ingredients & heartfelt service!</p>
         </div>

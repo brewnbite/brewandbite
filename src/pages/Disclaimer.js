@@ -1,11 +1,21 @@
-// src/components/Footer.js
-import React from 'react';
-import '../styles/Footer.css';
+import React from "react";
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
-const Footer = () => {
+const Disclaimer = () => {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    // Redirect to home page after user acknowledges
+    const timer = setTimeout(() => {
+      navigate("/home");
+    }, 10000); // Redirects after 10 seconds (adjustable)
+
+    return () => clearTimeout(timer);
+  }, [navigate]);
+
   return (
-    <footer className="footer">
-      <div style={{ padding: "20px", textAlign: "center" }}>
+    <div style={{ padding: "20px", textAlign: "center" }}>
       <h2>Disclaimer</h2>
       <p>
         The information provided on this website is intended for educational purposes only. 
@@ -24,16 +34,11 @@ const Footer = () => {
       <p>
         By using this website, you acknowledge and agree to these terms.
       </p>
+      <button onClick={() => navigate("/home")} style={{ padding: "10px 20px", marginTop: "20px", cursor: "pointer" }}>
+        Acknowledge & Proceed
+      </button>
     </div>
-    <p>&copy; 2018 Brew & Bite. All rights reserved.</p>
-      <div className="social-icons">
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
-      </div>
-      
-    </footer>
   );
 };
 
-export default Footer;
+export default Disclaimer;

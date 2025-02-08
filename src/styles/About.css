@@ -1,17 +1,118 @@
-/* src/styles/About.css */
-.about {
-    padding: 40px 20px;
-    text-align: center;
-    background-color: #f4f4f4;
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+.about-container h2 {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.about-container p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #48351b;
+}
+
+.company-overview
+{
+  margin-top: 60px;
+}
+
+/* Sections */
+.company-overview,
+.timeline,
+.awards {
+  background-color: #f9f9f9;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Team Section */
+.team-section {
+  margin-bottom: 30px;
+}
+
+.team-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  width: 260px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease-in-out;
+}
+
+.team-member:hover {
+  transform: scale(1.05);
+}
+
+.team-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-member h3 {
+  font-size: 1.2rem;
+  color: #34495e;
+  margin-bottom: 5px;
+}
+
+.team-member p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Timeline */
+.timeline ul {
+  list-style: none;
+  padding: 0;
+}
+
+.timeline li {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #444;
+  position: relative;
+  padding-left: 25px;
+}
+
+.timeline li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  color: #e67e22;
+  font-size: 1.2rem;
+}
+
+/* Awards */
+.awards p {
+  font-size: 1.1rem;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+  .team-grid {
+    flex-direction: column;
+    align-items: center;
   }
-  
-  .about h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  .about p {
-    font-size: 18px;
-    color: #666;
-  }
-  
+}
