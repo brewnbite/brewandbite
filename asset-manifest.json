@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/brewandbite/static/css/main.8e559e05.css",
-    "main.js": "/brewandbite/static/js/main.d8a71574.js",
+    "main.js": "/brewandbite/static/js/main.6ee0333d.js",
     "static/media/brewNbiteLocation.jpg": "/brewandbite/static/media/brewNbiteLocation.08f1f642182d1fbf80ec.jpg",
     "static/media/founder1.jpg": "/brewandbite/static/media/founder1.50942eef3cada3cc7b5d.jpg",
-    "static/media/founder2.jpg": "/brewandbite/static/media/founder2.8494eaf24ac70ff13f95.jpg",
     "static/media/homepage-bg4.png": "/brewandbite/static/media/homepage-bg4.4dd5dfbd46ef737c388d.png",
     "static/media/about-section.png": "/brewandbite/static/media/about-section.664b55418110c88df62c.png",
+    "static/media/founder3.jpg": "/brewandbite/static/media/founder3.9a1e73f8e251491998c9.jpg",
     "static/media/menu-section.png": "/brewandbite/static/media/menu-section.b0e5f20ebdb985400c63.png",
     "static/media/contact-side-img.jpg": "/brewandbite/static/media/contact-side-img.8f28058ecafefc4c4a3a.jpg",
     "static/media/bottom-cup-icon.png": "/brewandbite/static/media/bottom-cup-icon.988b532280a8be9306f2.png",
@@ -15,10 +15,10 @@
     "static/media/icon-whatsapp.png": "/brewandbite/static/media/icon-whatsapp.71e47b828d15e544a562.png",
     "index.html": "/brewandbite/index.html",
     "main.8e559e05.css.map": "/brewandbite/static/css/main.8e559e05.css.map",
-    "main.d8a71574.js.map": "/brewandbite/static/js/main.d8a71574.js.map"
+    "main.6ee0333d.js.map": "/brewandbite/static/js/main.6ee0333d.js.map"
   },
   "entrypoints": [
     "static/css/main.8e559e05.css",
-    "static/js/main.d8a71574.js"
+    "static/js/main.6ee0333d.js"
   ]
 }
