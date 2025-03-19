@@ -19,7 +19,7 @@ const LandingPage = () => {
         <h1>Welcome to Brew & Bite ☕</h1>
         <p>More than coffee. It’s a feeling, a pause, a story brewed to perfection.</p>
         <div className="hero-buttons">
-          <Link to="/" className="btn">Explore Brew & Bite</Link>
+          <Link to="/home" className="btn">Explore Brew & Bite</Link>
         </div>
       </section>
 
@@ -34,7 +34,7 @@ const LandingPage = () => {
           <strong>🌟 Our Mission:</strong> To provide exceptional coffee and food in a welcoming space.
           <strong>🎯 Our Vision:</strong> To become a global café experience driven by creativity and taste.
         </p>
-        <Link to="/blog" className="read-more">Know More..</Link>
+        <Link to="/about" className="read-more">Know More..</Link>
         </section>
 
       {/* Offerings Section */}

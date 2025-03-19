@@ -152,6 +152,8 @@ Who knows? Your next favorite café memory might start with a sip of something u
 And hey, we’d love to hear which one you tried! Share your experience on Instagram and tag us using #SipWithBrewAndBite—we love seeing your happy sips and cozy café stories.     </p>
               <div className={styles.blogCta}>
               "Not sure which drink to try? Our baristas are here to help! <a href='/contact'>Ask them</a> for their personal favorites or recommendations—your next go-to café drink might be just a conversation away."              </div>
+              <div className={styles.blogCta}>
+              "Your next café adventure awaits! Whether you’re a coffee enthusiast or a tea lover, there’s something for everyone at <a href='/home'>Brew & Bite.</a> Come for the drinks, stay for the vibes—we can’t wait to see you!"              </div>
           </article>
       </div></>
   );
