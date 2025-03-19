@@ -1,7 +1,7 @@
 {
   "name": "brew-and-bite",
   "version": "0.1.0",
-  "homepage": "https://brewnbite.github.io/brewandbite",
+  "homepage": "https://brewnbite.github.io/brewandbite/landing",
   "private": true,
   "dependencies": {
     "axios": "^1.7.9",

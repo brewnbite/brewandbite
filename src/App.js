@@ -7,7 +7,10 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Menu from './pages/Menu';
 import Contact from './pages/Contact';
+import Blog from './pages/Blog';
 import './styles/global.css';
+import LandingPage from './pages/Landing';
+import ThankYou from './pages/ThankYou';
 
 const App = () => {
   return (
@@ -20,6 +23,9 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/landing" element={<LandingPage />} />
+        <Route path="/thank" element={<ThankYou />} />
         </Routes>
         <Footer />
       </div>

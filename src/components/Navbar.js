@@ -8,12 +8,14 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="container">
-        <Link to="/" className="navbar-brand">Brew & Bite</Link>
+        <Link to="/landing" className="navbar-brand">Brew & Bite</Link>
         <div className="navbar-links">
           <Link to="/">Home</Link>
           <Link to="/menu">Menu</Link>
           <Link to="/about">About</Link>
           <Link to="/contact">Contact Us</Link>   
+          <Link to="/blog">Blogs</Link>   
+          <Link to="/thank">ThankYou</Link>   
         </div>
         <div class = "widgets"> 
          <a href = "#">+1 234 567 890</a> 

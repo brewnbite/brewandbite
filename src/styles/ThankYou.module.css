@@ -1,0 +1,127 @@
+.thankYouContainer {
+  min-height: 100vh;
+  background-color: #fcfaf7;
+  background-image: 
+    radial-gradient(#8b4513 0.5px, transparent 0.5px),
+    radial-gradient(#8b4513 0.5px, #fcfaf7 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.contentWrapper {
+    margin-top: 2%;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 3rem 4rem;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(44, 24, 16, 0.08);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid rgba(139, 69, 19, 0.1);
+  backdrop-filter: blur(10px);
+  animation: fadeIn 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.iconWrapper {
+  margin-bottom: 0.5rem;
+}
+
+.coffeeIcon {
+  font-size: 4rem;
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+  margin: 0%;
+}
+
+.title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3.3rem;
+  color: #2c1810;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  background: linear-gradient(45deg, #2c1810, #8b4513);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.message {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  color: #5c4032;
+  line-height: 1.8;
+  margin-bottom: 0rem;
+}
+
+.decorativeLine {
+  width: 120px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #8b4513, transparent);
+  margin: 2rem auto;
+}
+
+.subMessage {
+  font-family: 'Open Sans', sans-serif;
+  color: #8b4513;
+  font-size: 1rem;
+  margin-bottom: 1.3rem;
+}
+
+.linkContainer {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-bottom: 1.3rem;
+}
+
+.link {
+  padding: 0.8rem 2rem;
+  border: 2px solid #8b4513;
+  border-radius: 30px;
+  color: #8b4513;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  background: #8b4513;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.signature {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  color: #2c1810;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .contentWrapper {
+    padding: 2rem;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+  }
+  
+  .linkContainer {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
