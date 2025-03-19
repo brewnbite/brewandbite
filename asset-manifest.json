@@ -1,24 +1,33 @@
 {
   "files": {
-    "main.css": "/brewandbite/static/css/main.8e559e05.css",
-    "main.js": "/brewandbite/static/js/main.6ee0333d.js",
-    "static/media/brewNbiteLocation.jpg": "/brewandbite/static/media/brewNbiteLocation.08f1f642182d1fbf80ec.jpg",
-    "static/media/founder1.jpg": "/brewandbite/static/media/founder1.50942eef3cada3cc7b5d.jpg",
-    "static/media/homepage-bg4.png": "/brewandbite/static/media/homepage-bg4.4dd5dfbd46ef737c388d.png",
-    "static/media/about-section.png": "/brewandbite/static/media/about-section.664b55418110c88df62c.png",
-    "static/media/founder3.jpg": "/brewandbite/static/media/founder3.9a1e73f8e251491998c9.jpg",
-    "static/media/menu-section.png": "/brewandbite/static/media/menu-section.b0e5f20ebdb985400c63.png",
-    "static/media/contact-side-img.jpg": "/brewandbite/static/media/contact-side-img.8f28058ecafefc4c4a3a.jpg",
-    "static/media/bottom-cup-icon.png": "/brewandbite/static/media/bottom-cup-icon.988b532280a8be9306f2.png",
-    "static/media/Home-Section-2-bg.jpg": "/brewandbite/static/media/Home-Section-2-bg.1463d4d87f89315f0c51.jpg",
-    "static/media/vertical-line.png": "/brewandbite/static/media/vertical-line.75f9a4e38c5da8d40011.png",
-    "static/media/icon-whatsapp.png": "/brewandbite/static/media/icon-whatsapp.71e47b828d15e544a562.png",
-    "index.html": "/brewandbite/index.html",
-    "main.8e559e05.css.map": "/brewandbite/static/css/main.8e559e05.css.map",
-    "main.6ee0333d.js.map": "/brewandbite/static/js/main.6ee0333d.js.map"
+    "main.css": "/brewandbite/landing/static/css/main.5abaa6fc.css",
+    "main.js": "/brewandbite/landing/static/js/main.0e42a8a3.js",
+    "static/media/Blog-2.jpg": "/brewandbite/landing/static/media/Blog-2.7e0b35138a9c61c23f64.jpg",
+    "static/media/brewNbiteLocation.jpg": "/brewandbite/landing/static/media/brewNbiteLocation.08f1f642182d1fbf80ec.jpg",
+    "static/media/founder1.jpg": "/brewandbite/landing/static/media/founder1.50942eef3cada3cc7b5d.jpg",
+    "static/media/founder2.jpg": "/brewandbite/landing/static/media/founder2.8494eaf24ac70ff13f95.jpg",
+    "static/media/homepage-bg4.png": "/brewandbite/landing/static/media/homepage-bg4.4dd5dfbd46ef737c388d.png",
+    "static/media/about-section.png": "/brewandbite/landing/static/media/about-section.664b55418110c88df62c.png",
+    "static/media/menu-section.png": "/brewandbite/landing/static/media/menu-section.b0e5f20ebdb985400c63.png",
+    "static/media/mains.jpg": "/brewandbite/landing/static/media/mains.a31e6efdc98172295a86.jpg",
+    "static/media/Blog-1.png": "/brewandbite/landing/static/media/Blog-1.d370d19560af84cd9701.png",
+    "static/media/AppsSalad.jpg": "/brewandbite/landing/static/media/AppsSalad.c578398096b3ebf54927.jpg",
+    "static/media/contact-side-img.jpg": "/brewandbite/landing/static/media/contact-side-img.8f28058ecafefc4c4a3a.jpg",
+    "static/media/reservation-bg.jpg": "/brewandbite/landing/static/media/reservation-bg.0cf5e747937e78173b94.jpg",
+    "static/media/bottom-cup-icon.png": "/brewandbite/landing/static/media/bottom-cup-icon.988b532280a8be9306f2.png",
+    "static/media/sweets.jpg": "/brewandbite/landing/static/media/sweets.fd16e6f599730cfbe17f.jpg",
+    "static/media/kidsMeal.jpg": "/brewandbite/landing/static/media/kidsMeal.29f26a4b72634cac0f0f.jpg",
+    "static/media/beverages.jpg": "/brewandbite/landing/static/media/beverages.92dd4bbb691ab93f995c.jpg",
+    "static/media/brunch.jpg": "/brewandbite/landing/static/media/brunch.1f9a85a848e865050810.jpg",
+    "static/media/Home-Section-2-bg.jpg": "/brewandbite/landing/static/media/Home-Section-2-bg.1463d4d87f89315f0c51.jpg",
+    "static/media/vertical-line.png": "/brewandbite/landing/static/media/vertical-line.75f9a4e38c5da8d40011.png",
+    "static/media/icon-whatsapp.png": "/brewandbite/landing/static/media/icon-whatsapp.71e47b828d15e544a562.png",
+    "index.html": "/brewandbite/landing/index.html",
+    "main.5abaa6fc.css.map": "/brewandbite/landing/static/css/main.5abaa6fc.css.map",
+    "main.0e42a8a3.js.map": "/brewandbite/landing/static/js/main.0e42a8a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e559e05.css",
-    "static/js/main.6ee0333d.js"
+    "static/css/main.5abaa6fc.css",
+    "static/js/main.0e42a8a3.js"
   ]
 }
