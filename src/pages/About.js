@@ -46,7 +46,7 @@ const About = () => {
             transition={{ duration: 0.3 }}
           >
             <img src={founder1} alt="Founder" />
-            <h3>John Doe</h3>
+            <h3>Abhay Aneja</h3>
             <p>Co-Founder & CEO</p>
             <p>Expert in coffee craft and hospitality with 10+ years of experience.</p>
           </motion.div>

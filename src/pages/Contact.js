@@ -41,7 +41,7 @@ function Contact() {
           <div className="social-links">
             <a href="https://www.facebook.com"><img src={fbIcon} alt="facebook-icon" className="iconn" /></a>
             <a href="https://wa.me/"><img src={whatsappIcon} alt="Whatsapp" className="whatsapp-iconn iconn" /></a>
-            <a href="https://www.instagram.com/"><img src={instaIcon} alt="insta-icon" className="iconn" /></a>
+            <a href="https://www.instagram.com/brew._and_bite?igsh=dzExeTZ2MzJwZmly"><img src={instaIcon} alt="insta-icon" className="iconn" /></a>
           </div>
         </div>
         <div className='location'>

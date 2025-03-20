@@ -20,7 +20,7 @@ const Navbar = () => {
         <div class = "widgets"> 
          <a href = "#">+1 234 567 890</a> 
         <a href = "https://www.facebook.com/"><img src={fbIcon} alt="facebook-icon" className="icon" /></a>
-        <a href = "https://www.instagram.com/"><img src={instaIcon} alt="insta-icon" className="icon" /></a>
+        <a href = "https://www.instagram.com/brew._and_bite?igsh=dzExeTZ2MzJwZmly"><img src={instaIcon} alt="insta-icon" className="icon" /></a>
         </div>
       </div>
     </nav>

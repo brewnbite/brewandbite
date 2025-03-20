@@ -17,7 +17,6 @@ const Home = () => {
         <a href="/menu"><button class="boton-elegante">View Menu</button></a>
       </div>
       <img src={logo} alt="Logo" className="bottom-center-image" />
-      {/* <a href="https://wa.me/+917973588176"><img src={whatsappIcon} alt="Whatsapp" className="whatsapp-icon" /></a> */}
     </div><div className="section-2">
         <img src={vLine} alt="vertical-line" className="vertical-line" />
         <div className="section-2-content">
