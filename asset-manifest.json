@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/brewandbite/static/css/main.78cd4713.css",
-    "main.js": "/brewandbite/static/js/main.480874fd.js",
+    "main.js": "/brewandbite/static/js/main.fb57bd8a.js",
     "static/media/Blog-2.jpg": "/brewandbite/static/media/Blog-2.7e0b35138a9c61c23f64.jpg",
     "static/media/brewNbiteLocation.jpg": "/brewandbite/static/media/brewNbiteLocation.08f1f642182d1fbf80ec.jpg",
-    "static/media/founder1.jpg": "/brewandbite/static/media/founder1.50942eef3cada3cc7b5d.jpg",
     "static/media/founder2.jpg": "/brewandbite/static/media/founder2.8494eaf24ac70ff13f95.jpg",
     "static/media/homepage-bg4.png": "/brewandbite/static/media/homepage-bg4.4dd5dfbd46ef737c388d.png",
+    "static/media/founder1.jpg": "/brewandbite/static/media/founder1.6424cdbc62d4ac142a5b.jpg",
     "static/media/about-section.png": "/brewandbite/static/media/about-section.664b55418110c88df62c.png",
     "static/media/menu-section.png": "/brewandbite/static/media/menu-section.b0e5f20ebdb985400c63.png",
     "static/media/mains.jpg": "/brewandbite/static/media/mains.a31e6efdc98172295a86.jpg",
@@ -24,10 +24,10 @@
     "static/media/icon-whatsapp.png": "/brewandbite/static/media/icon-whatsapp.71e47b828d15e544a562.png",
     "index.html": "/brewandbite/index.html",
     "main.78cd4713.css.map": "/brewandbite/static/css/main.78cd4713.css.map",
-    "main.480874fd.js.map": "/brewandbite/static/js/main.480874fd.js.map"
+    "main.fb57bd8a.js.map": "/brewandbite/static/js/main.fb57bd8a.js.map"
   },
   "entrypoints": [
     "static/css/main.78cd4713.css",
-    "static/js/main.480874fd.js"
+    "static/js/main.fb57bd8a.js"
   ]
 }
